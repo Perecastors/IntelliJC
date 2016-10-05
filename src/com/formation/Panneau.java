@@ -15,7 +15,7 @@ public class Panneau {
 
     public void affiche(){
         if(message.length() > 10){
-            System.out.println(message.substring(0,9)+"...");
+            System.out.println(message.substring(0,10)+"...");
         }
         else {
             System.out.println(message);
