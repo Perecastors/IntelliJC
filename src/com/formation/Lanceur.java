@@ -6,7 +6,7 @@ package com.formation;
 public class Lanceur {
 
     public static void main(String[] args) {
-        Bonjour bj = new Bonjour();
-        System.out.println(bj.yooo("Rasta"));
+        Panneau bj = new Panneau("Coucou");
+        bj.affiche();
         }
 }
